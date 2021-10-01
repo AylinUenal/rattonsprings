@@ -4,9 +4,11 @@ import Link from 'next/link'
 
 export default function Navbar() {
   return (
-    <nav>
+    <nav className="bg-primary py-5">
+    <div className="flex justify-around">
+
         <Link href="/">
-          <a>Home</a>
+          <a className="text-white">Home</a>
         </Link>
         <Link href="/about">
           <a>About us</a>
@@ -23,6 +25,7 @@ export default function Navbar() {
         <Link href="/contact">
           <a>Contact us</a>
         </Link>
+    </div>
     </nav>
   )
 }
