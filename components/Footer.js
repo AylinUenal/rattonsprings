@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <>
-    <footer className="bg-primary flex py-5 justify-between" >
+    <footer className="bg-primary flex py-5 justify-between px-10">
       <div>
 
       <p className="text-white">Follow us on Social Media!</p>

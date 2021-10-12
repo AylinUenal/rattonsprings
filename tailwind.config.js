@@ -9,6 +9,9 @@ module.exports = {
       height: {
         lg: '300px',
         xl: '600px'
+      },
+      backgroundImage: {
+        'hero-home': "url('/images/lake-and-mountain.jpg')"
       }
     },
   },

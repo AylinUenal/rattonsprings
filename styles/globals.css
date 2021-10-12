@@ -4,6 +4,7 @@
   body {
     margin: 0;
     padding: 0;
+    min-height: 100vh;
   }
   h1 {
     @apply text-2xl font-bold text-primary;
@@ -16,6 +17,11 @@
   }
   a {
     @apply hover:underline;
+  }
+
+  .img-hero {
+   background-image: url('/images/lake-and-mountain.jpg');
+   background-size: cover;
   }
 }
 

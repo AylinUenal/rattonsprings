@@ -2,10 +2,10 @@
 export default function about() {
   return (
     <div>
-      <h1>About us</h1>
+      <h1 className="text-center py-10">About us</h1>
       <h2>Our history</h2>
 
-      <div className="flex items-center px-10">
+      <div className="flex items-center">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto totam odio sit earum saepe repellat error, quisquam itaque voluptatem soluta quae impedit blanditiis! Quibusdam perspiciatis amet repudiandae deserunt perferendis, nihil similique esse nobis ipsum nesciunt omnis ex incidunt voluptate aut alias, commodi optio delectus officiis porro laborum accusamus minus accusantium.</p>
         <img className="h-xl" src="../images/JohnRattonPoster.png" alt="Ratton Springs founder John Ratton" />
       </div>
