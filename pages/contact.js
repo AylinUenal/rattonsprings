@@ -5,14 +5,11 @@ export default function contact() {
   return (
     <div>
       <h1>Contact us</h1>
-    <div className="flex justify-around">
-  
-
+    <div className="flex justify-around flex-wrap">
       <ContactForm />
-  
     <div>
 
-      <img className="h-lg" src="..\images\women-with-bottles.jpg" alt="two women smiling and drinking warer" />
+      <img className="h-lg" src="..\images\women-with-bottles.jpg" alt="two women smiling and drinking water" />
     </div>
     </div>
     </div>

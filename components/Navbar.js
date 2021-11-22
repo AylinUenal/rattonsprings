@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function Navbar() {
   return (
     <nav className="bg-primary py-5 sticky top-0 text-white font-semibold">
-      <div className="flex justify-around">
+      <div className="flex justify-between max-w-screen-2xl m-auto px-7">
           <Link href="/">
             <a>Home</a>
           </Link>

@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <div className="bg-hero-home bg-cover h-96 bg-center flex items-center justify-center">
+        <div className="bg-hero-home bg-cover h-xl bg-center flex items-center justify-center">
           <h1 className="text-white">
             Welcome to Ratton Springs!!
           </h1>
