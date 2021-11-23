@@ -32,3 +32,6 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# API key
+612d605ce49c4709bf7cc2a5c5277ba9

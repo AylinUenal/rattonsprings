@@ -1,6 +1,10 @@
 import products from "../products.json"
 
 export default function Product() {
+
+
+
+
   return (
     <>
     <span>Filter by categories: </span>
@@ -29,7 +33,7 @@ export default function Product() {
             <div key={product.id}>
               <h2 className="text-center p-10">{product.name}</h2>
               <div className="flex items-center">
-                <img className="h-96 mx-20" src={product.logo}/>
+                <img className="h-96 mx-20" src={product.logo} alt={product.alt}/>
                 <div>
                   <h3>About this product:</h3>
                   <p>{product.description}</p>
