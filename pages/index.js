@@ -1,6 +1,13 @@
 import Head from 'next/head'
-// import styles from '../styles/Home.module.css'
 import Link from 'next/link'
+import React from 'react';
+import {
+  Accordion,
+  AccordionItem,
+  AccordionItemHeading,
+  AccordionItemButton,
+  AccordionItemPanel,
+} from 'react-accessible-accordion';
 
 export default function Home() {
   return (
@@ -11,14 +18,51 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <div className="bg-hero-home bg-cover h-xl bg-center flex items-center justify-center">
-          <h1 className="text-white">
-            Welcome to Ratton Springs!!
-          </h1>
-        </div>
+      <section className="max-w-full bg-hero-home bg-cover h-xl bg-center flex items-center justify-center">
+        <h1 className="text-white">
+          Welcome to Ratton Springs!!
+        </h1>
+      </section>
 
-      </main>
+    <section className="flex items-center">
+      <div className="flex-grow">
+        <Accordion allowZeroExpanded>
+          <AccordionItem>
+            <AccordionItemHeading>
+              <AccordionItemButton>
+                What is our mission?
+              </AccordionItemButton>
+            </AccordionItemHeading>
+            <AccordionItemPanel>
+              <p>
+                Exercitation in fugiat est ut ad ea cupidatat ut in
+                cupidatat occaecat ut occaecat consequat est minim minim
+                esse tempor laborum consequat esse adipisicing eu
+                reprehenderit enim.
+              </p>
+            </AccordionItemPanel>
+          </AccordionItem>
+          <AccordionItem>
+            <AccordionItemHeading>
+              <AccordionItemButton>
+                What is our promise?
+              </AccordionItemButton>
+            </AccordionItemHeading>
+            <AccordionItemPanel>
+              <p>
+                In ad velit in ex nostrud dolore cupidatat consectetur
+                ea in ut nostrud velit in irure cillum tempor laboris
+                sed adipisicing eu esse duis nulla non.
+              </p>
+            </AccordionItemPanel>
+          </AccordionItem>
+        </Accordion>
+      </div>
+      <div>
+        <img src="../images/hands-with-water.jpg" alt="water splashing on hands" className="h-xl"/>
+      </div>
+    </section>
+
 
       {/* <footer className={styles.footer}>
         <a

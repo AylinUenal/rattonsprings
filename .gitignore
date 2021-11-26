@@ -33,5 +33,8 @@ yarn-error.log*
 # vercel
 .vercel
 
-# API key
+# News API key
 612d605ce49c4709bf7cc2a5c5277ba9
+
+# personal access token for GitHub API
+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
