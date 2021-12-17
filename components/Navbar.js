@@ -7,22 +7,22 @@ export default function Navbar() {
     <nav className="bg-primary py-5 sticky top-0 text-white font-semibold">
       <div className="flex justify-between max-w-screen-2xl m-auto px-7">
           <Link href="/">
-            <a>Home</a>
+            <a className="nav__link-decoration">Home</a>
           </Link>
           <Link href="/about">
-            <a>About us</a>
+            <a className="nav__link-decoration">About us</a>
           </Link>
           <Link href="/news">
-            <a>News</a>
+            <a className="nav__link-decoration">News</a>
           </Link>
           <Link href="/products">
-            <a>Products</a>
+            <a className="nav__link-decoration">Products</a>
           </Link>
           <Link href="/sites">
-            <a>Our Sites</a>
+            <a className="nav__link-decoration">Our Sites</a>
           </Link>
           <Link href="/contact">
-            <a>Contact us</a>
+            <a className="nav__link-decoration">Contact us</a>
           </Link>
       </div>
     </nav>

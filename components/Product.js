@@ -2,9 +2,6 @@ import products from "../products.json"
 
 export default function Product() {
 
-
-
-
   return (
     <>
     <span>Filter by categories: </span>

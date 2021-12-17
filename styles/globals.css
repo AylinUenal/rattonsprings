@@ -50,7 +50,7 @@
   border: none;
 }
 
-.accordion__button:hover {
+.accordion__button:hover, [aria-expanded="true"] {
   background-color: #AF4D98;
 }
 
@@ -88,4 +88,8 @@
   100% {
     opacity: 1;
   }
+}
+
+.nav__link-decoration:hover {
+  text-decoration-color: theme('colors.secondary');
 }
