@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Jack Newman",
+    "position": "CEO",
+    "image": "./images/CEO.jpg",
+    "alt": "portrait of CEO Jack Newman",
+    "copyright": {
+      "link": "https://unsplash.com/@huntersrace?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+      "name": "Hunters Race",
+      "source": "https://unsplash.com/s/photos/ceo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+      "sourceName": "Unsplash"
+    },
+    "employedSince": "2012",
+    "hobbies": ["rowing, ", "red wine, ", "travelling"],
+    "id": "1"
+  },
+  {
+    "name": "Emmeline Beaumont",
+    "position": "Secretary",
+    "image": "./images/secretary.jpg",
+    "alt": "portrait of Secretary Emmeline Beaumont",
+    "copyright": {
+      "link": "https://unsplash.com/@_visalli?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+      "name": "Antonino Visalli",
+      "source": "https://unsplash.com/s/photos/secretary?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+      "sourceName": "Unsplash"
+    },
+    "employedSince": "2011",
+    "hobbies": ["reading, ", "running"],
+    "id": "2"
+  },
+  {
+    "name": "Oliver Sandman",
+    "position": "Head of Production",
+    "image": "./images/RattonSpringsLogo.png",
+    "alt": "Ratton Springs logo",
+    "copyright": {
+      "link": "https://unsplash.com/@huntersrace?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+      "name": "Hunters Race",
+      "source": "https://unsplash.com/s/photos/ceo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+      "sourceName": "Unsplash"
+    },
+    "employedSince": "2009",
+    "hobbies": ["fotography"],
+    "id": "3"
+  }
+]

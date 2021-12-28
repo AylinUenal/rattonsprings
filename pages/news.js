@@ -2,8 +2,8 @@
 
 export default function news() {
   return (
-    <div>
-      <h1>News</h1>
+    <div className="mx-40">
+      <h1 className="text-center py-10">News</h1>
     </div>
       )
 }

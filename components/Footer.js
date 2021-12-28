@@ -6,7 +6,7 @@ export default function Footer() {
 
       <div className="flex flex-col justify-between">
         <p className="text-white">Follow us on Social Media!</p>
-        <p className="text-white">Coded by <strong> <a href="https://github.com/AylinUenal">Aylin Ünal</a></strong></p>
+        <p className="text-white">Coded by <a className="font-bold hover:text-secondary" href="https://github.com/AylinUenal">Aylin Ünal</a></p>
       </div>
 
       <div>

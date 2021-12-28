@@ -2,8 +2,8 @@
 
 export default function sites() {
   return (
-    <>
-      <h1>Our sites</h1>
+    <div className="mx-40">
+      <h1 className="text-center py-10">Our sites</h1>
       <p className="text-secondary py-5 text-lg">Coming soon: an interactive map!</p>
 
       <div>
@@ -11,6 +11,6 @@ export default function sites() {
         <p>&copy; Photo by <a href="https://unsplash.com/@iambrettzeck?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Brett Zeck</a> on <a href="https://unsplash.com/s/photos/world-map?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
         </p>
       </div>
-    </>
+    </div>
   )
 }

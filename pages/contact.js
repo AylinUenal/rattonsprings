@@ -3,8 +3,8 @@ import ContactForm from '../components/ContactForm'
 
 export default function contact() {
   return (
-    <div>
-      <h1>Contact us</h1>
+    <div className="mx-40">
+      <h1 className="text-center py-10">Contact us</h1>
       <div className="flex justify-around flex-wrap">
         <ContactForm />
         <div>
