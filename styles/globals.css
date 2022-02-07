@@ -5,7 +5,17 @@
     margin: 0;
     padding: 0;
     min-height: 100vh;
+    position: relative;
   }
+
+  main {
+    min-height: calc(100vh - 266px);
+  }
+
+  footer {
+    height: 200px;
+  }
+
   h1 {
     @apply text-2xl font-bold text-primary;
   }
@@ -13,10 +23,14 @@
     @apply text-xl font-semibold text-primary;
   }
   h3 {
-    @apply text-lg text-primary;
+    @apply text-lg text-secondary;
   }
   a {
     @apply hover:underline;
+  }
+
+  section {
+    margin-bottom: 60px;
   }
 
   .img-hero {

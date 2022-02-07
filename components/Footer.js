@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <>
     <footer className="bg-primary">
-    <div className="max-w-screen-2xl m-auto flex py-5 justify-between px-7 mt-9">
+    <div className="max-w-screen-2xl m-auto flex py-5 justify-between px-7">
 
       <div className="flex flex-col justify-between">
         <p className="text-white">Follow us on Social Media!</p>

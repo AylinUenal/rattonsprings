@@ -1,5 +1,3 @@
-// TODO: when active mark underline
-
 import React from 'react'
 import Link from 'next/link'
 

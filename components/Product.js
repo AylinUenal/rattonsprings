@@ -4,25 +4,25 @@ export default function Product() {
 
   return (
     <>
-    <span>Filter by categories: </span>
+    <span className="mr-2">Filter by categories: </span>
 
     <input
       type="checkbox"
       name="lifestyle"
     />
-    <label htmlFor="lifestyle">Lifestyle </label>
+    <label className="mx-2" htmlFor="lifestyle">Lifestyle </label>
 
     <input
       type="checkbox"
       name="daily"
     />
-    <label htmlFor="fun">Daily </label>
+    <label className="mx-2" htmlFor="fun">Daily </label>
 
     <input
       type="checkbox"
       name="sport"
     />
-    <label htmlFor="sport">Sport </label>
+    <label className="mx-2" htmlFor="sport">Sport </label>
 
       {
         products.map(product => {
