@@ -28,7 +28,7 @@ export default function Product() {
         products.map(product => {
           return (
             <div key={product.id}>
-              <h2 className="text-center p-10">{product.name}</h2>
+              <h2 className="text-center m-10 link-decoration hover:underline-offset-4">{product.name}</h2>
               <div className="flex items-center">
                 <img className="h-96 mx-20" src={product.logo} alt={product.alt}/>
                 <div>

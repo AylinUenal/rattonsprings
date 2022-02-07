@@ -30,14 +30,14 @@
     "id": "2"
   },
   {
-    "name": "Oliver Sandman",
+    "name": "Oliver Sandford",
     "position": "Head of Production",
-    "image": "./images/RattonSpringsLogo.png",
-    "alt": "Ratton Springs logo",
+    "image": "./images/employee.jpg",
+    "alt": "man working at desk",
     "copyright": {
-      "link": "https://unsplash.com/@huntersrace?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
-      "name": "Hunters Race",
-      "source": "https://unsplash.com/s/photos/ceo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+      "link": "https://unsplash.com/@towfiqu999999?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+      "name": "Towfiqu barbhuiya",
+      "source": "https://unsplash.com/s/photos/employee?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
       "sourceName": "Unsplash"
     },
     "employedSince": "2009",

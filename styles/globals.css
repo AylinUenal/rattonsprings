@@ -100,8 +100,13 @@
 /******************** navigation ****************/
 /* -------------------------------------------------- */
 
-.nav__link-decoration:hover {
-  text-decoration-color: theme('colors.secondary');
+.link-decoration {
+  border-bottom: 2px solid transparent;
+}
+
+.link-decoration:hover {
+  border-bottom: 2px solid theme('colors.secondary');
+  text-decoration: none;
 }
 
 /* -------------------------------------------------- */

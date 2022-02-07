@@ -13,11 +13,12 @@ module.exports = {
       },
       backgroundImage: {
         'hero-home': "url('/images/lake-and-mountain.jpg')"
-      }
+      },
     },
   },
   variants: {
-    extend: {},
+    extend: {
+    },
   },
   plugins: [],
 }
