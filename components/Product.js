@@ -4,28 +4,11 @@ export default function Product() {
 
   return (
     <>
-    <span className="mr-2">Filter by categories: </span>
-
-    <input
-      type="checkbox"
-      name="lifestyle"
-    />
-    <label className="mx-2" htmlFor="lifestyle">Lifestyle </label>
-
-    <input
-      type="checkbox"
-      name="daily"
-    />
-    <label className="mx-2" htmlFor="fun">Daily </label>
-
-    <input
-      type="checkbox"
-      name="sport"
-    />
-    <label className="mx-2" htmlFor="sport">Sport </label>
-
       {
         products.map(product => {
+
+          let categories = product.categories.join(", ");
+
           return (
             <div key={product.id}>
               <h2 className="text-center m-10 link-decoration hover:underline-offset-4">{product.name}</h2>
@@ -34,6 +17,7 @@ export default function Product() {
                 <div>
                   <h3>About this product:</h3>
                   <p>{product.description}</p>
+                  <p className="text-secondary mt-5">Categories: {categories}</p>
                 </div>
               </div>
             </div>

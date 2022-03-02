@@ -19,14 +19,11 @@ export default function news() {
         .then((res) => {
           setDataArticles(res.data.articles);
         }).catch((res) => {
-        console.log('response erre:', res);
         setError(res.toString());
         console.log('state value erre:', error);
       })
     }
   })
-
-  console.log('initial data:', dataArticles);
 
   if (dataArticles) {
     return (

@@ -13,7 +13,7 @@ export default function Home() {
 
       <section className="max-w-full bg-hero-home bg-cover h-xl bg-center flex items-center justify-center">
         <h1 className="text-white text-5xl">
-          Welcome to Ratton Springs!!
+          Welcome to Ratton Springs
         </h1>
       </section>
 
