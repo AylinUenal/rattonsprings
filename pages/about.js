@@ -20,7 +20,7 @@ export default function about() {
         </section>
 
         <section>
-          <h2>Discover Mother Nature's Favourite Water!</h2>
+          <h2>Discover Mother Natures Favourite Water!</h2>
           <div className="flex items-center">
             <img src="../images/RattonSpringsLogo.png" alt="Ratton Springs logo"/>
             <div>

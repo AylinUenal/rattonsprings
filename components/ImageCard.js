@@ -27,8 +27,8 @@ export default function ImageCard() {
                   Photo by
                   <a
                     href={person?.copyright.link}
+                    rel="noopener noreferrer"
                     target={"_blank"}
-                    rel="noreferrer"
                   >
                     {" "}
                     {person.copyright.name}{" "}
@@ -37,7 +37,7 @@ export default function ImageCard() {
                   <a
                     href={person?.copyright?.source}
                     target={"_blank"}
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                   >
                     {" "}
                     {person?.copyright?.sourceName}{" "}
